@@ -9,6 +9,6 @@ public void openBrowser() {
 System.setProperty("webdriver.chorme.driver","C:\\Users\\ELCOT\\Downloads\\chromedriver_win32");
 WebDriver driver = new ChromeDriver();
 }
-
+driver.manage.window().maximize()
 driver.get()
 }
